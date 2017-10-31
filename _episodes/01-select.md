@@ -49,6 +49,12 @@ SQL provides hundreds of different ways to analyze and recombine data.
 We will only look at a handful of queries,
 but that handful accounts for most of what scientists do.
 
+> ## Pronunciation
+>
+> You will hear 'SQL' pronounced 'sequel' and 'ess-queue-ell'.
+> We'll try and stick to 'ess-queue-ell' in this lesson
+{: .callout}
+
 > ## Getting Into and Out Of SQLite
 >
 > In order to use the SQLite commands *interactively*, we need to
