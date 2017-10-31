@@ -55,28 +55,6 @@ but that handful accounts for most of what scientists do.
 > We'll try and stick to 'ess-queue-ell' in this lesson
 {: .callout}
 
-> ## Getting Into and Out Of SQLite
->
-> In order to use the SQLite commands *interactively*, we need to
-> enter into the SQLite console.  So, open up a terminal, and run
->
-> ~~~
-> $ cd /path/to/survey/data/
-> $ sqlite3 survey.db
-> ~~~
-> {: .bash}
->
-> The SQLite command is `sqlite3` and you are telling SQLite to open up
-> the `survey.db`.  You need to specify the `.db` file otherwise, SQLite
-> will open up a temporary, empty database.
->
-> To get out of SQLite, type out `.exit` or `.quit`.  For some
-> terminals, `Ctrl-D` can also work.  If you forget any SQLite `.` (dot)
-> command, type `.help`.
-{: .callout}
-
-Before we get into the data and using SQLite to select the data,
-
 The tables below show the database we will use in our examples:
 
 <div class="row">
@@ -181,6 +159,9 @@ we'll return to these missing values [later]({{ site.github.url }}/05-null/).
 > {: .output}
 >
 > that instructs SQLite to load the database in the `survey.db` file.
+> If you don't specify a file, SQLite will open up a temporary, empty database.
+>
+> To get out of SQLite, type out .exit or .quit. For some terminals, Ctrl-D can also work.
 >
 > For a list of useful system commands, enter `.help`.
 >
